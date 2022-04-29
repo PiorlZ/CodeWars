@@ -33,5 +33,7 @@ function persistence(int $num): int
     return $count;
 }
 
-dd(persistence(999));
+dd(persistence(39),
+   persistence(999),
+   persistence(4));
 ?>
